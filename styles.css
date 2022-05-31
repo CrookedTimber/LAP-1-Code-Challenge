@@ -1,11 +1,22 @@
 .GoogleLogo{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
 }
 .searchbar{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
     border-radius: 30;
+    padding-top: 15px;
+}
+
+.searchbar1{
+    width: 500px;
+    height: 45px;
+    border-radius: 10%;
+    border-color: lightgray ;
+    outline: none;
 }
 
 .btn{
@@ -15,27 +26,74 @@
 
 .bottom-buttons{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    padding-top: 20px;
 }
 
+.button1{
+    border: none;
+    outline: none;
+    height: 30px;
+    padding-right: 10px;
+}
 
+button{
+    border: none;
+    outline: none;
+    padding: 5px;
+}
 
 .lowerbar{
-    background-color: grey;
-    display: flex;
-    align-self: flex-end;
+    background-color: lightgrey;
+    overflow: hidden;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    color: grey;
 }
 
 .navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 10%;
+ 
 }
 
 .bar{
-    background-color: grey;
+    background-color: lightgrey;
     border: none;
 
 }
+
+.firsttwo{
+    align-items: left;
+    margin: 0;
+}
+
+.lastfew{
+    text-align: right;
+   
+}
+
+.btn2{
+    background-color: blue;
+    color:white;
+    height: 50px;
+    width: 80px;
+    border-radius: 10%;
+    border: none;
+    
+}
+
+.secondset{
+    text-align: right;
+}
+
+.center{
+    text-align: center;
+}
+
+
+.searchbar img {
+    width: 20px;
+    height: 20px;
+    object-fit: fill;
+  }

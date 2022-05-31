@@ -5,48 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png"> 
+    
     <title>My Google Homepage</title>
 </head>
 <body>
     <nav class="navbar">
+        <div class="firsttwo">
         <button class="btn">
             About
         </button>
         <button class="btn">
             Store
-        </button>
+        </button></div>
+        <div class="lastfew">
         <button class="btn">
             Gmail
         </button>
         <button class="btn">
             Images
         </button>
-        <button class="btn">
+        <button class="btn2">
             Sign in
         </button>
+    </div>
 </nav>
     <div class="GoogleLogo">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/368px-Google_2015_logo.svg.png" alt="Google Logo" class="GoogleLogo">
     </div>
 
+    <form id="search-form">
 <div class="searchbar">
-    <input type ="search" placeholder="search">
+    <img src="search.png">
+    <input type ="text" id="query" placeholder="Search" class="searchbar1">
+    <img src="voice.png">
 </div>
-    </div>
     <div class="bottom-buttons">
-        <button>
-            Google Search 
-            <input type="submit">
+        <button id="submit">
+            <input type="submit" value="Google Search" class="button1">
         </button>
         <button>
-            I'm feeling Lucky
+            <input type="submit" value="I'm feeling lucky" class="button1">
         </button>
-    </div>
+    </form>
+</div>
     <div class ="lowerbar">
         <h3>United Kingdom</h3>
+        <div class="center">
         <button class="bar">
             Carbon Neutral since 2007
         </button>
+        </div>  
         <button class="bar">
             Advertising 
         </button>
@@ -56,6 +65,7 @@
         <button class="bar">
             How Search Works
         </button>
+        <div class="secondset">
         <button class="bar">
             Privacy
         </button>
@@ -66,5 +76,7 @@
             Settings
         </button>
     </div>
+    </div>
 </body>
 </html>
+
