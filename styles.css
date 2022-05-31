@@ -1,7 +1,41 @@
+.GoogleLogo{
+    display: flex;
+    justify-content: space-evenly;
+}
+.searchbar{
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 30;
+}
+
+.btn{
+    background-color: white;
+    border: none;
+}
+
+.bottom-buttons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
 .lowerbar{
     background-color: grey;
+    display: flex;
+    align-self: flex-end;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
 }
 
 .bar{
-    style: none;
+    background-color: grey;
+    border: none;
+
 }
