@@ -8,18 +8,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 30;
     padding-top: 15px;
+    background-color: white;
+    box-shadow: 2px 5px #cfcccc;
+    width: 500px;
+    height: 45px;
+    border-radius: 15px 15px 15px 15px;
+    
 }
 
 .searchbar1{
     width: 500px;
     height: 45px;
-    border-radius: 10%;
-    border-color: lightgray ;
+    border-radius: 20%;
+    border: none;
     outline: none;
+    box-shadow: none;
 }
-
+   
 .btn{
     background-color: white;
     border: none;
@@ -98,3 +104,5 @@ button{
     height: 20px;
     object-fit: fill;
   }
+
+ 
