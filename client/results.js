@@ -4,39 +4,23 @@ let resultsList = document.querySelector('#search-results')
 getSearchInput()
 
 
-
-
 async function getSearchInput() {
-	const response = await fetch('http://localhost:3000/search');
-	const data = await response.json(); 
+    const response = await fetch('http://localhost:3000/search');
+    const data = await response.json();
 
     const searchInput = data.search
     console.log(searchInput)
 
-    getSearchResults(searchInput)
+    getSearchResults()
 
 }
 
 
-
-async function getSearchResults(text) {
-
+async function getSearchResults() {
 
 
-
-    const options = {
-        method: 'GET',
-        headers: {
-            'X-RapidAPI-Host': 'contextualwebsearch-websearch-v1.p.rapidapi.com',
-            'X-RapidAPI-Key': 'f338ce7730msh44dbcfa52ca5151p13f049jsnc14d53a89c3f'
-        }
-    };
-
-    const searchURL = `https://contextualwebsearch-websearch-v1.p.rapidapi.com/api/Search/WebSearchAPI?q=${text}&pageNumber=1&pageSize=10&autoCorrect=true&safeSearch=true`;
-
-    const response = await fetch(searchURL, options);
-    const data = await response.json();
-
+    const res = await fetch('http://localhost:3000/results');
+    const data = await res.json();
 
     for (let i = 0; i < 10; i++) {
 
