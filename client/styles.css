@@ -6,8 +6,7 @@
 }
 .searchbar{
     display: flex;
-    justify-content: center;
-    align-items: center;
+     margin: auto;
     padding-top: 15px;
     background-color: white;
     box-shadow: 2px 5px #cfcccc;
@@ -60,9 +59,9 @@ button{
     color: grey;
 }
 
-.navbar{
+/* .navbar{
  
-}
+} */
 
 .bar{
     background-color: lightgrey;

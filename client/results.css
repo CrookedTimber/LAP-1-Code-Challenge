@@ -1,0 +1,12 @@
+.navbar-nav {
+    color: darkslategray;
+}
+
+
+#search-results>div {
+    color: black;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-top: 20px;
+
+}

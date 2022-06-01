@@ -22,7 +22,7 @@ app.post('/search', (req, res) => {
     console.log(req.body)
     searchInput = req.body
 
-    console.log(searchInput)
+
 
 })
 
